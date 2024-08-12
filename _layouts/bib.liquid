@@ -158,9 +158,15 @@
       {% capture entrytype %}{% endcapture %}
     {% endif %}
 
-    {% if entry.volume %}{{ entry.volume }}, {% endif %}
-    {% if entry.number %}({{ entry.number }}) {% endif %}
-    {% if entry.pages %}{{ entry.pages }}. {% endif %}
+    {% if entry.volume %}
+      {% capture volume %} {{ entry.volume }} {% endcapture %}
+    {% endif %}
+    {% if entry.number %}
+       {% capture number %} {{ entry.number }} {% endcapture %}
+    {% endif %}
+    {% if entry.pages %}
+       {% capture pages_number %} {{ entry.pages }} {% endcapture %}
+    {% endif %}
 
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
@@ -176,7 +182,10 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}
+      {{ volume }} {{ " " }} {% if number %}{{"("}}{{ number }} {{") "}} {% end if %}
+      {{ pages_number |  prepend: ': '  }}{{". "}}{{ entryyear }} {{"."}}
+    {% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
