@@ -1,34 +1,23 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Arnao":
+  - firstname: ["Marino", "Marino B.", "M. B.", "Marino Bañón"]
+    url: https://orcid.org/0000-0001-8517-6889
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Hernández-Ruiz":
+  - firstname: ["Josefa", "J."]
+    url: http://orcid.org/0000-0002-1847-8809
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Giraldo-Acosta":
+  - firstname: ["Manuela", "M."]
+    url: https://orcid.org/0000-0003-3054-4319
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"El Mihyaoui":
+  - firstname: ["Amina", "A."]
+    url: https://orcid.org/0000-0002-3640-1469
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Maestre-Hernández":
+  - firstname: ["Ana-Belén", "Ana Belen", "Ana B.", "A. B."]
+    url: https://orcid.org/0000-0002-7875-7877
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+#"Coauthor":
+#  - firstname: ["Coauthor fistname", "Coauthor initial"]
+#    url: https://orcid.org/XXXX-XXXX-XXXX-XXXX
